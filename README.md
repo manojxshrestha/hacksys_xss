@@ -1,7 +1,3 @@
-Sure! Here's a complete **README** section with features, usage, and command-line arguments for the HackSys Advanced XSS Exploitation Tool:
-
----
-
 # HackSys Advanced XSS Exploitation Tool
 
 Welcome to the **HackSys Advanced XSS Exploitation Tool**! This tool is designed for advanced penetration testing, specifically for identifying and exploiting **Cross-Site Scripting (XSS)** vulnerabilities. With features such as asynchronous scanning, payload fuzzing, and customizable reporting, it's a powerful asset for security professionals.
@@ -150,5 +146,3 @@ python hacksys_xss.py -u https://example.com -p payloads.txt -o output.txt -v 3
 This will run the scan with verbosity level 3 for more detailed output.
 
 ---
-
-Feel free to modify and tweak the README as per your preferences! Let me know if you need any further adjustments.
