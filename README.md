@@ -88,10 +88,10 @@ python hacksys_xss.py -u <URL> -p <payloads_file> -o <output_file> --report <rep
 ### Example Command
 
 ```bash
-python hacksys_xss.py -u https://www.nepal.gov.np -p pollgots-xss.txt -o xssbug.txt -t 10 -v 3
+python hacksys_xss.py -u https://example.com -p pollgots-xss.txt -o xssbug.txt -t 10 -v 3
 ```
 
-This will scan `https://www.nepal.gov.np` using the payloads from `pollgots-xss.txt`, save the results to `xssbug.txt`, run with 10 threads, and set the verbosity level to 3.
+This will scan `https://example.com` using the payloads from `pollgots-xss.txt`, save the results to `xssbug.txt`, run with 10 threads, and set the verbosity level to 3.
 
 ## Command-Line Arguments
 
